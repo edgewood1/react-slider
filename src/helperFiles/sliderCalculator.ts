@@ -1,4 +1,4 @@
-import { AppData } from './index';
+import { AppData } from '../index';
 
 interface State {
   [key: string]: number

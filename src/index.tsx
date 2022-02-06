@@ -3,9 +3,9 @@ import { render } from 'react-dom';
 import Toolbar from '@mui/material/Toolbar';
 import styled from 'styled-components';
 
-import BodyTable from './table';
-import FooterRow from './footerRow';
-import importedData from './data'
+import BodyTable from './Components/table';
+import FooterRow from './Components/footerRow';
+import importedData from './helperFiles/data'
 
 export interface AppData {
   id: string;

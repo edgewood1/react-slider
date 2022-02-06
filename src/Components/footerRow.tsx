@@ -6,8 +6,8 @@ import TextField from '@mui/material/TextField';
 
 import styled from 'styled-components';
 
-import { resetTotal } from './sliderCalculator';
-import {AppData, Context} from './index'
+import { resetTotal } from '../helperFiles/sliderCalculator';
+import {AppData, Context} from '../index'
 
 const BottomRow = styled.div`
   display: flex;

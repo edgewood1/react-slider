@@ -2,8 +2,8 @@ import React from 'react';
 
 import Slider from '@mui/material/Slider';
 import styled from 'styled-components';
-import { AppData, Context } from './index'
-import { calculateTotal, calculateData } from './sliderCalculator';
+import { AppData, Context } from '../index'
+import { calculateTotal, calculateData } from '../helperFiles/sliderCalculator';
 
 const SliderTool = styled(Slider)`
   margin-right: 20px;

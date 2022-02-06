@@ -7,7 +7,7 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Slide from './slide';
-import {AppData, Context} from './index'
+import {AppData, Context} from '../index'
 
 const headers = ['Institution', 'Amount', 'Total'];
 
